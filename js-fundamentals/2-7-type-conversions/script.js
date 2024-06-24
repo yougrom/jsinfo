@@ -48,11 +48,16 @@ console.log(Number("123z")); // NaN (ошибка на символе z)
 // Boolean(value) — преобразует значение к логическому типу:
 // Example
 console.log(Boolean(1)); // true
-console.log(Boolean(0)); // false
-console.log(Boolean("hello")); // true
-console.log(Boolean("")); // false
 console.log(Boolean("0")); // true
 console.log(Boolean(" ")); // true
+console.log(Boolean("hello")); // true
+
+// Example false
+console.log(Boolean(0)); // false
+console.log(Boolean("")); // false
+console.log(Boolean(null)); // false
+console.log(Boolean(undefined)); // false
+console.log(Boolean(NaN)); // false
 
 // Summary
 // Существуют три встроенных функции для преобразования типов:
