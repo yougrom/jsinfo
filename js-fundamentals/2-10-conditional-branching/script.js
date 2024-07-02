@@ -31,6 +31,23 @@ if (year2 < 2015) {
     console.log('Exactly!');
 }
 
+// Example 
+const year3= 2024;
+let message3 = null;
+if (year === 2024) {
+  message3 = 'Start learn'; 
+} else {
+  message3 = 'End year';
+}
+console.log(message3);
+
+// Example ?
+const year4= 2024;
+let message4 = year4 === 2024 
+  ? 'Start learn' 
+  : 'End year';
+console.log(message4);
+
 // Условный оператор „?“
 // Инструкция if (...) else (...) можно заменить на условный оператор ?:
 // Например:
